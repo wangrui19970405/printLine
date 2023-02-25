@@ -7,7 +7,7 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "日结打印",
+    "productName": "PrintLine",
     "version": "1.0.1"
   },
   "tauri": {
@@ -46,6 +46,9 @@
       "shortDescription": "",
       "targets": "all",
       "windows": {
+        "wix": {
+          "language": "zh-CN"
+        },
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
         "timestampUrl": ""
